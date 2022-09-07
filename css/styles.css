@@ -263,6 +263,10 @@ margin: 0 auto;
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+
+/* Modal */
+
+
 .modal{
     position: absolute;
     top: 50%;
@@ -276,6 +280,7 @@ margin: 0 auto;
     rgba(0, 0, 0, 0.14), 0px 2px 1px
     rgba(0, 0, 0, 0.2);
     border-radius: 4px;
+    padding: 40px 40px;
 
 }
 
@@ -292,12 +297,169 @@ margin: 0 auto;
     height: 30px;
     background: #FFFFFF;
     border: 1px solid rgba(0, 0, 0, 0.1);
-    display: flex;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+.icon-close:hover,
+.icon-close:focus{
+    cursor: pointer;
+    fill: ;
+
+}
+
+/* Modal form */
+
+
+
+.modal-form{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+
+}
+
+.modal-block{
+
+
+
+}
+
+.modal-title{
+font-weight: 700;
+font-size: 20px;
+line-height: 1.15;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+margin-bottom: 12px;
+}
+
+
+
+.modal-label{
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.01em;
+}
+
+.modal-input{
+    margin-bottom: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.modal-input:not(:last-child){
+    margin-bottom: 10px;   
+}
+
+.icon-form{
+    position: absolute;
+    top: 50%;
+    left: 12px;
+    pointer-events: none;
+}
+
+textarea{
+    resize: none;
+}
+.form-inner{
+    text-align: center;
+     
+} 
+
+.modal-btn-submit{
+    text-align: center;
+    padding: 10px 52px;
+    cursor: pointer;
+    display: block;
+    border: none;
+    width: 200px;
+    height: 50px;
+    margin: 0 auto;
+    background: #188CE8;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    color: #FFFFFF ;
+}
+
+/* 
+.modal-form::placeholder{
+    color: #2196F3;
+}
+
+
+
+
+
+.modal-label:last-child{
+    padding-bottom: 0;
+}
+
+.modal-input{
+
+}
+
+
+
+.modal-btn-submit{
+    display: block;
+    border: none;
+    width: 200px;
+    height: 50px;
+    margin: 0 auto;
+    background: #188CE8;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+
+}
+
+.modal-btn-cheked{
+    border: 2px solid #212121;
+    border-radius: 4px;
+    display: flex;
+}
+
+.user-accept,
+.check-box-link{
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: #757575;
+}
+
+.check-box-link{
+color: #2196F3;
+}
+
+.icon-cheked{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+/* Portfolio */
 
 .subtitle,
 .portfolio-title{
