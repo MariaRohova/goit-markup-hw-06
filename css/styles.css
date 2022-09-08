@@ -290,9 +290,11 @@ body {
   align-items: center;
 }
 
-.icon-close:hover,
-.icon-close:focus {
+.button-close:hover,
+.button-close:focus {
   cursor: pointer;
+  fill: #2196f3;
+transform: fill 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
 }
 
 /* Modal form */
@@ -536,7 +538,7 @@ textarea {
   background-color: rgba(33, 150, 243, 1);
   color: #ffffff;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-list {
@@ -634,10 +636,12 @@ textarea {
 .footer {
   background-color: #2f303a;
   padding: 60px 0;
+
 }
 footer .container {
   align-items: baseline;
   display: flex;
+
 }
 
 .footer-block-1 {
@@ -649,7 +653,8 @@ footer .container {
 }
 
 .footer-block-3{
-    padding-top: 16px
+    margin-top: 20px;
+
 }
 
 .footer .logo-studio {
