@@ -648,6 +648,10 @@ footer .container {
   margin-right: 93px;
 }
 
+.footer-block-3{
+    padding-top: 16px
+}
+
 .footer .logo-studio {
   color: #ffffff;
 }
@@ -710,11 +714,12 @@ footer .team-social-netwoorks {
 
 .footer-form {
   display: flex;
-  position: absolute;
+
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
   border: none;
+
 
 }
 
