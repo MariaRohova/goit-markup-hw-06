@@ -291,7 +291,7 @@ body {
 }
 
 .button-close:hover,
-.button-close:focus {
+.button-close:focus, {
   cursor: pointer;
   fill: #2196f3;
 transform: fill 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
@@ -350,6 +350,7 @@ transform: fill 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
 .modal-textarea {
   height: 120px;
   margin-bottom: 20px;
+  outline: none;
 }
 
 .icon-form {
@@ -361,6 +362,9 @@ transform: fill 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
 
 textarea {
   resize: none;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  outline: none;
 }
 .form-inner {
   text-align: center;
